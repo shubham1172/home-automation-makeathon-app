@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PiedPiper</string>
+    <string name="button">Speak!</string>
+    <string name="sign_out">Sign out</string>
+    <string name="speech_prompt">What do you want me to do?</string>
+    <string name="home_led">Lighting</string>
+    <string name="home_ac">AC</string>
+    <string name="home_monitor">monitor</string>
+    <string name="led_header">Ambience</string>
+    <string name="current_stats">Current stats:</string>
+    <string name="led1">LED-1</string>
+    <string name="led2">LED-2</string>
+    <string name="led3">LED-3</string>
+    <string name="temperature">Temperature</string>
+    <string name="door_status">Door status</string>
+    <string name="smoke_status">Smoke status</string>
+    <string name="ac_on">on</string>
+    <string name="ac_off">off</string>
+    <string name="temp_high">+</string>
+    <string name="temp_low">-</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "285195147931",
+    "firebase_url": "https://piedpiper-home.firebaseio.com",
+    "project_id": "piedpiper-home",
+    "storage_bucket": "piedpiper-home.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285195147931:android:5b1e2406aa3eff33",
+        "android_client_info": {
+          "package_name": "com.shubham1172.piedpiper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285195147931-7u900kt7cj3b7fs2vri4ui4vcbk9lhmb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubham1172.piedpiper",
+            "certificate_hash": "f9f2d6622f618db29c334d9c0f5738e0b0376765"
+          }
+        },
+        {
+          "client_id": "285195147931-01t6nnjj0e91529ouh1kg4d0oed0pnmt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH-NOyKffEiwrQj0_pbFzhHt1972XYmqg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285195147931-01t6nnjj0e91529ouh1kg4d0oed0pnmt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

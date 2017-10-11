@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shubham1172.piedpiper.HomeScreen"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/home_top_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Welcome, "
+            android:layout_centerVertical="true"
+            android:id="@+id/welcome_text"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/sign_out"
+            android:onClick="signOut"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_top_layout"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/home_monitor"
+            android:id="@+id/home_monitor"
+            android:onClick="actionClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/home_led"
+            android:id="@+id/home_led"
+            android:onClick="actionClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/home_ac"
+            android:id="@+id/home_ac"
+            android:onClick="actionClick"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/mybutton"
+        android:layout_centerInParent="true"
+        android:text="@string/button"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="speakClick"/>
+
+</RelativeLayout>
